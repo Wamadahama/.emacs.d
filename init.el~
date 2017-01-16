@@ -12,6 +12,10 @@
 ;; You may delete these explanatory comments.
 (package-initialize)
 
+;; Update packages 
+(when (not package-archive-contents)
+    (package-refresh-contents))
+
 ;; remove ugly
 (split-window-horizontally)
 (tool-bar-mode 0)
@@ -58,10 +62,12 @@
 (mouse-wheel-mode 1)
 
 ;;theme
-(require 'moe-theme)
-(setq moe-theme-highlight-buffer-id nil)
-(moe-dark)
-(moe-theme-set-color 'cyan)
+;;(require 'zenburn-theme)
+(zenburn-theme)
+;;(require 'moe-theme)
+;;(setq moe-theme-highlight-buffer-id nil)
+;;(moe-dark)
+;;(moe-theme-set-color 'cyan)
 
 ;; text decoration
 (require 'font-lock)
@@ -71,11 +77,12 @@
 (require 'evil)
 (evil-mode 1)
 
-(setq inferior-lisp-program "clisp.exe")
-(load "C:\\quicklisp\\slime-helper.el")
+;;(setq inferior-lisp-program "clisp.exe")
+;;(load "C:\\quicklisp\\slime-helper.el")
 
 ;; smart mode line
 ;; (sml/setup) Use in case of *nix :-)
+;;(sml/setup)
 
 ;; Go programming environment 
 (defun auto-complete-for-go ()
@@ -83,7 +90,7 @@
   (add-hook 'go-mode-hook 'auto-complete-for-go)
 
 (with-eval-after-load 'go-mode
-  (require 'go-autocomplete))
+  (require 'go-complete))
 
 
 (custom-set-variables
@@ -97,7 +104,7 @@
  '(inhibit-startup-screen t)
  '(package-selected-packages
    (quote
-    (go-autocomplete auto-complete exec-path-from-shell go-eldoc smart-mode-line-powerline-theme go-mode highlight-quoted font-lock+ moe-theme slime ## undo-tree goto-chg))))
+    (go-complete go-autocomplete auto-complete exec-path-from-shell go-eldoc smart-mode-line-powerline-theme go-mode highlight-quoted font-lock+ moe-theme slime ## undo-tree goto-chg))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
