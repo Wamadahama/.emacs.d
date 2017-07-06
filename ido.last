@@ -1,0 +1,173 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("c:/inetpub/wwwroot/ereg/" . "includes/")
+ ("c:/inetpub/wwwroot/ereg/css/" . "ui-lightness/")
+ ("//dev3/OnsiteXpressReg/Register/aacc0717_onsite/assets/" . "css/")
+ ("//dev3/OnsiteXpressReg/Register/aacc0717_onsite/" . "assets/")
+ ("c:/Users/eellis/Desktop/OnsiteEventMonitor/Source Code/Onsite Event Monitor/OnsiteUptimeMonitorService/" . "Logging/")
+ ("c:/Users/eellis/Desktop/OnsiteEventMonitor/Source Code/Onsite Event Monitor/" . "OnsiteUptimeMonitorService/")
+ ("c:/Users/eellis/Desktop/OnsiteEventMonitor/Source Code/" . "Onsite Event Monitor/")
+ ("c:/Users/eellis/Desktop/OnsiteEventMonitor/" . "Source Code/")
+ ("c:/Users/eellis/AppData/Roaming/" . ".emacs.d/")
+ ("c:/Users/eellis/Desktop/test/" . "css/")
+ ("c:/Users/eellis/Desktop/" . "nn/")
+ ("c:/Users/eellis/" . "Desktop/")
+ ("c:/Users/" . "eellis/")
+ ("c:/inetpub/wwwroot/XpressEReg/App_Themes/" . "standard/")
+ ("c:/inetpub/wwwroot/XpressEReg/" . "App_Themes/")
+ ("c:/inetpub/wwwroot/" . "ereg/")
+ ("c:/inetpub/" . "wwwroot/")
+ ("c:/" . "inetpub/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "c:/inetpub/wwwroot/ereg/"
+ "c:/inetpub/wwwroot/ereg/includes/"
+ "c:/Users/eellis/AppData/Roaming/.emacs.d/"
+ "c:/inetpub/wwwroot/Admin_V11/"
+ "//dev3/OnsiteXpressReg/Register/aall0717_onsite/lookup/"
+ "c:/Users/eellis/Desktop/test/"
+ "//dev3/OnsiteXpressReg/core/Austin1ApiAsp/classes/"
+ "c:/Users/eellis/Desktop/nn/"
+ "//dev3/OnsiteXpressReg/Register/isna0717_onsite/"
+ "//dev3/OnsiteXpressReg/Register/isna0717_onsite/lookup/"
+ "//dev3/OnsiteXpressReg/Register/aacc0717_onsite/includes/"
+ "//dev3/OnsiteXpressReg/Register/aacc0717_onsite/lookup/"
+ "c:/Program Files/emacs/bin/"
+ "c:/inetpub/wwwroot/ceu2xml/"
+ "h:/Projects/Tech Support Project/Help Desk Project Site/Styles/"
+ "h:/Projects/Tech Support Project/Help Desk Project Site/App_Code/"
+ "//dev3/OnsiteXpressReg/Register/cyto0617_onsite/"
+ "//dev3/OnsiteXpressReg/Register/cyto0617_onsite/lookup/"
+ "c:/Users/eellis/Desktop/OnsiteEventMonitor/Source Code/Onsite Event Monitor/OnsiteUptimeMonitorService/Logging/"
+ "c:/Users/eellis/Desktop/OnsiteEventMonitor/Source Code/Onsite Event Monitor/OnsiteUptimeMonitorService/Database/"
+ "c:/Users/eellis/Desktop/"
+ "c:/inetpub/wwwroot/XpressEReg/App_Themes/standard/"
+ "c:/inetpub/wwwroot/XpressEReg/"
+ "c:/inetpub/wwwroot/XpressEReg/App_Code/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "lookup_p.asp"
+ "webConfig.asp"
+ "header.asp"
+ "printbadge_p.asp"
+ "lookup_login.asp"
+ "ereg_styles.asp"
+ "lookup_admin.asp"
+ "init.el"
+ "lookup.asp"
+ "PrintModeSave.asp"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("c:/inetpub/wwwroot/ereg/includes/" (22876 65463 0 0) "xpuFooter.asp" "WebRegGen.asp" "WebItemGen_Old.asp" "WebItemGen.asp" "UtilityFunctions.asp" "UnavailableHeader.asp" "UnavailableFooter.asp" "Unavailable.css" "translations.asp" "techInfo.asp" "progress.asp" "objconnshape.asp" "objCds.asp" "library.js" "InjectionProtection.asp" "header2.asp" "header1.asp" "header.asp" "getTempReg.asp" "GetRegInfo.asp" "getPromoDefinitions.asp" "footer.asp" "ereg_styles.asp" "EmailGeneratorDebug.asp" "EmailGenerator.asp" "email/" "clean.asp" "adovbs.asp" "../" "./")
+
+ ("c:/inetpub/wwwroot/" (22877 12982 0 0) "Zack/" "XpressWebRegServiceLogViewer/" "xPressToolkit/" "XpressEReg_2/" "XpressEReg/" "xpc/" "xet_fr/" "xet/" "xee/" "xd_receiver_ssl.htm" "xd_receiver_ssl - Copy.htm" "xd_receiver.htm" "xd_receiver - Copy.htm" "x2/" "well/" "urlPinger/" "TravelPlanners/" "tools4.0/" "TestXCopy/" "TestPermissions/" "Test2.php" "Test2 - Copy.php" "Test.php" "test.asp" "test/" "TechSupportStats/" "TechSupportOld/" "TechSupport/" "sql_text.html" "spike/" "SMESql_after_sponsor.txt" "smbuttons/" "setbesession.asp" "sessiontest.asp" "services/" "SEMSql.txt" "ROMECORE/" "RegisterXpressregWebSite/" "register/" "RegInfoConsumptionTest/" "PriMedMemberTester/" "presdo/" "playground/" "platform.inc" "phpinfo.php" "PhpCoreBeta/" "php.php" "PaymentLogViewer/" "passbook/" "New folder/" "modeldbschema/" "mmax115/" "media_old/" "Media/" "mdev/" "MaxTool/" "Marketing/" "m-milo/" "m-iphone/" "m/" "LRS_Settings2.php" "LRS_Settings.php" "LRSImages/" "isnaex_test.asp" "InquiryPage/" "index.php" "Includes/" "Images/" "iisstart.htm" "IISLogMonitor/" "iis-85.png" "GLMOnsiteReportingApp/" "FAQ/" "exhibitor/" "exc/" "EventAdmin/" "esite/" "eRegSPNY1217/" "eRegSPIR1017/" "eRegSOTH025/" "eRegSMMI1017/" "eRegSMAM1017/" "eRegROCK1017/" "eRegNCPA1017/" "eRegnaco0617/" "eRegMMAX115/" "eRegKMLE0717/" "eRegISNA0717/" "eRegIADR0317/" "eRegFARM0317/" "eRegFABC0318/" "eRegEXBI0417/" "eRegEREG0617/" "eRegDAKO085/" "eRegCNFW0817/" "eRegCMTS0617/" "eRegCJS0915/" "eRegBDNY1117/" "ereg/" "docbuilder/" "DCS_V1/" "dbsetup/" "CrowdCompass/" "CrossDemoExport/" "Coyote/" "CoreStyles/" "CoreServices/" "CoreJS/" "CoreInstructions/" "CoreIncludes/" "CoreImages/" "CoreClasses/" "core/" "cmm/" "clicks/" "ceu2xml/" "CertificatePrintServer_Rick/" "CDSCoreAPI/" "CDSBridgeLiteSampleCSharp/" "CDSBridgeLitePhpSample/" "CDSBiz/" "be_screen_builder/" "BC_Images/" "BarCodeGen/" "BarCode/" "attendee/" "aspnet_client/" "apps/" "Admin_XP/" "Admin_V9/" "Admin_V8/" "Admin_V75/" "Admin_V7/" "Admin_V6/" "Admin_V5/" "Admin_V4/" "Admin_V11/" "Admin_v105/" "Admin_V10/" "#test3.php#" "../" "./")
+
+ ("c:/inetpub/wwwroot/ereg/" (22877 14076 0 0) "ZipCodeLookup.asp" "YESE035/" "XPressEReg/" "WIPP0317/" "WEFLookupE-Reg_v2_p.asp" "WEFLookupE-Reg_v2.asp" "WEFLookupE-Reg_p.asp" "WEFLookupE-Reg.asp" "WebStyleJSScriptingDraft.html" "webConfig.asp" "untitled.html" "Unavailable.asp" "THES0816/" "TelfLookup_p.asp" "TelfLookupYM_p.asp" "TelfLookup.asp" "startingo.asp" "Start.asp" "SMELanding.asp" "SETLookupE-Reg_p.asp" "SETLookupE-Reg.asp" "SENS0916/" "SCCELookupE-Reg_p.asp" "SCCELookupE-Reg.asp" "SCCE0216/" "SaveE-RegCheck.asp" "SaveE-Reg.asp" "SamplePayPalResponse.txt" "RVIALookupE-Reg_p.asp" "RVIALookupE-Reg.asp" "RVIA125/" "ReviewE-Reg.asp" "RemoteLookup_p.php" "RegUpdate_p.asp" "RegUpdate.asp" "RegDemoE-Reg_p.asp" "RegDemoE-Reg.asp" "RegDeleteConf.asp" "Regdelete.asp" "RedirectE-Reg.asp" "ptop058/" "PromoValidation.asp" "printbadge_p.asp" "PayPal_Test.asp" "PayPal_Response.asp" "PayPalReturn.asp" "paypal-button.js" "PaymentOptionsE-Reg.asp" "PaymentE-Reg_p.asp" "PaymentE-Reg.asp" "PackagesE-Rep_p.asp" "PackagesE-Reg_p.asp" "PackagesE-Reg.asp" "orla115/" "NESO095/" "NCPALookupE-Reg_p.asp" "NCPALookupE-Reg.asp" "NCPA1017/" "NCPA1016/" "MILO023/" "MILO013/" "MemberMappingE-Reg.asp" "MDYR0117/" "lookup_p.asp" "lookup_login.asp" "lookup_admin.asp" "LookupE-Reg_p.asp" "LookupE-Reg.asp" "lookup.asp" "js/" "includes/" "IMISsso.asp" "IMISSSO/" "IMISsend.asp" "IMISlookup_p.asp" "IMISlookup.asp" "images/" "HRSLookupE-Reg_p.asp" "HRSLookupE-Reg.asp" "HousingE-Reg_Onpeak.asp" "HousingE-Reg.asp" "error.asp" "eReg/" "EMER0216/" "EmailE-RegNew.asp" "EmailE-Reg.asp" "DemoE-Reg_p.asp" "DemoE-Reg.asp" "DeleteConfirmE-Reg.asp" "default_test.asp" "default.asp" "db.asp" "Date101/" "customincludes/" "CTWR1116/" "CTWLookupE-Reg_p.asp" "CTWLookupE-Reg.asp" "css/" "cscInstructions.asp" "CRF_SSO_lookup.asp" "COSZ085/" "ConfirmE-Reg.asp" "CCCCLookup_p.asp" "CCCCLookup.asp" "BlogHerPRO13/" "BlogHerFood14/" "BEEmails.asp" "BCBB0916/" "AWEASSO.asp" "AWEALookup_p.php" "AWEALookup_p.asp" "AWEALookupV2_p.php" "AWEALookupV2_p.asp" "AWEALookupV2.asp" "AWEALookup.asp" "AWEABELookup_p.php" "AWEABELookupV2_p.php" "AVWLookupE-Reg_p.asp" "AVWLookupE-Reg.asp" "ASSELookupE-Reg_p.asp" "ASSELookupE-Reg.asp" "ASSE0116/" "ASCRSStart.asp" "ASCRSLookup_p.asp" "ASCRSLookup.asp" "ACSStart.asp" "ACSSSOStart.asp" "ACSSSOMemberRedirect.asp" "ACSLookup_p.asp" "AAORemoteMemberLookup_v2.asp" "AAORemoteMemberLookup.asp" "AAOLookupE-Reg_v4_p.asp" "AAOLookupE-Reg_v4.asp" "AAOLookupE-Reg_v3_p.asp" "AAOLookupE-Reg_v3.asp" "AAOLookupE-Reg_v2_p.asp" "AAOLookupE-Reg_v2.asp" "AAOLookupE-Reg_p.asp" "AAOLookupE-Reg.asp" ".gitignore" ".git/" ".#lookup_admin.asp" "#lookup_p.asp#" "#lookup_admin.asp#" "../" "./")
+
+ ("c:/inetpub/wwwroot/ereg/css/ui-lightness/" (22846 55476 0 0) "jquery-ui-1.8.2.custom.css" "images/" "../" "./")
+
+ ("c:/inetpub/wwwroot/ereg/css/" (22867 48320 0 0) "ui-lightness/" "cds_main.css" "bootstrap.min.css" "bootstrap.css" "bootstrap-theme.min.css" "bootstrap-theme.css" "../" "./")
+
+ ("c:/Users/eellis/AppData/Roaming/.emacs.d/" (22876 63098 0 0) "var/" "themes/" "switch-bg.el" "solarized-emacs/" "slime/" "README.md" "LICENSE" "init.el~" "init.el" "ido.last" "evil/" "eshell/" "emacs/" "elpa/" "auto-save-list/" "ac-comphist.dat" "#foo.c#" "##foo.c##" "../" "./")
+
+ ("c:/Users/eellis/AppData/Roaming/" (22867 58755 0 0) "TortoiseSVN/" "TechSmith/" "Subversion/" "Sublime Text 3/" "Skype/" "ShoreWare Client/" "saves/" "Papercut/" "NuGet/" "npm-cache/" "Notepad++/" "Mozilla/" "Microsoft Corporation/" "Microsoft/" "Macromedia/" "jupyter/" "Jedi/" "Intel Corporation/" "FileZilla/" "ColorCop/" "Atom/" "Adobe/" ".history" ".emacs.d/" "#.sieve#" "../" "./")
+
+ ("c:/Program Files/" (22867 45546 0 0) "WindowsPowerShell/" "WindowsApps/" "Windows Sidebar/" "Windows Portable Devices/" "Windows Photo Viewer/" "Windows NT/" "Windows Multimedia Platform/" "Windows Media Player/" "Windows Mail/" "Windows Kits/" "Windows Defender/" "VS2012Schemas/" "Uninstall Information/" "TortoiseSVN/" "Sublime Text 3/" "Sophos/" "Reference Assemblies/" "Realtek/" "qutebrowser/" "NVIDIA Corporation/" "Notepad++/" "MSBuild/" "Microsoft.NET/" "Microsoft Visual Studio 10.0/" "Microsoft SQL Server/" "Microsoft Silverlight/" "Microsoft SDKs/" "Microsoft Office 15/" "Microsoft Office/" "Microsoft MPI/" "Microsoft Help Viewer/" "Microsoft Analysis Services/" "Microsoft/" "Internet Explorer/" "Intel/" "IIS Express/" "IIS/" "gs/" "Git/" "FileZilla FTP Client/" "Epicor Software/" "emacs/" "dotnet/" "desktop.ini" "Common Files/" "Barracuda/" "Application Verifier/" "Anaconda3/" "7-Zip/" "../" "./")
+
+ ("c:/inetpub/wwwroot/Admin_V11/" (22869 25584 0 0) "ZipCodeLookUp.asp" "WS_FTP.LOG" "WorkStationRemove.asp" "WorkStationList.asp" "WorkStationEdit_p.asp" "WorkStationEditRemote_p.asp" "WorkStationEditRemote.asp" "WorkStationEditMulti_p.asp" "WorkStationEditMulti.asp" "WorkStationEdit.asp" "ViewTestRecords.asp" "upgrade_1.txt" "UpgradeScript.sql" "UIInclude.asp" "TicketTextUpdate.asp" "TicketTextLoad.asp" "TicketTextEditor.asp" "StoredProcedures/" "SetPrinter.asp" "SetDefaults.asp" "SetDBLocation.asp" "SendConfirmationTP.asp" "SendConfirmationRemote.asp" "SendConfirmationAllnew05222014.asp" "SendConfirmationAll.asp" "SendConfirmation.asp" "SelfRegLookUpSelect.asp" "SelfRegLookUpPrint.asp" "SelfRegLookUp.asp" "Security.asp" "scriptinclude.asp" "ResetVerifiedStatus.asp" "ResetItemsToPrint.asp" "ResetBadgeTickets.asp" "ReportsEdit_new.asp" "ReportsEditSave.asp" "ReportsEditParams.asp" "ReportsEdit.asp" "Reports.asp" "RemoveTestRecords.asp" "RemoteOnsiteSetup.asp" "RegsummaryCustomNew.asp" "RegsummaryCustom.asp" "RegPrintPreview.asp" "RegLookUpPayment.asp" "RegLookUp2.asp" "RegLookUp.asp" "RecToTable.asp" "PromoListUpdate.asp" "PromoListForm.asp" "PromoList.asp" "ProcessReport_SQL.asp" "ProbResPopUp.asp" "ProbResList.asp" "ProbResDetail.asp" "ProbResAddAttempt.asp" "PrintReceipt.asp" "PrintQueueQuickChange.asp" "PrintModeSave.asp" "PrintModeForm.asp" "PrintConfirmation.asp" "PrintBadge.asp" "PopCalendar.asp" "PaymentsEdit_po.asp" "PaymentsEdit_p.asp" "PaymentsEdit_p - Copy.asp" "PaymentsEdit.asp" "PaymentsCredit.asp" "PaymentsCC_PSIGate.asp" "PaymentsCC_Pending.asp" "PaymentsCC.asp" "PaymentChangeLog.asp" "PassKey.asp" "PageStyle1.css" "PageStyle.css" "OrderChangeLog.asp" "Onsite_VNU.asp" "OnSiteMenu.asp" "Onsite.asp" "mobile/" "MergeOrders.asp" "MemberLookUp.asp" "MelissaAddressVerification.asp" "MainMenu.asp" "LogOut.asp" "Login_p.asp" "Login.asp" "LoadPromo1Info.asp" "library.js" "ItemQuotaListInc.asp" "ItemQuotaList.asp" "ItemQuotaForm.asp" "ItemEditDate.asp" "InvalidBrowser.html" "images/" "Housing.asp" "headerpopup.asp" "headernomasthead.asp" "header.asp" "GroupOrder_Detail.asp" "GroupOrder.asp" "GroupDelete.asp" "GetPaymentInfo.asp" "GetInquiryResults.asp" "GetIncompleteResults.asp" "g2etest.asp" "formtest.asp" "footerpopup.asp" "footerjs.asp" "footer.asp" "FEjump.asp" "Expired.asp" "EmailBlastStats.asp" "EmailBlastResults.asp" "DemoAnswers3.asp" "DemoAnswers2.asp" "DemoAnswers.asp" "DeleteReg.asp" "DeletePayment.asp" "DeleteOrder.asp" "DBUtilities.asp" "DBDirect.asp" "DataEntry_SaveOLD.asp" "DataEntry_Save.asp.OLD05202016_1" "DataEntry_Save.asp" "DataEntry_QuotaValidate_Ajax.asp" "DataEntry_QuotaValidate.asp" "DataEntry_Old08052014_1.asp" "DataEntry_ItemsEdit3_Stash10292015_1.asp" "DataEntry_ItemsEdit3.asp" "DataEntry_ItemsEdit2.asp" "DataEntry_ItemsEdit.asp" "DataEntryXA.asp" "DataEntryViewItem.asp" "DataEntryold05302014_1.asp" "DataEntryItemPriceTierCntrl.asp" "DataEntryChangeLog.asp" "DataEntry3.asp" "DataEntry2.asp" "DataEntry.js" "DataEntry.asp" "CustomLookup.asp" "custom/" "cssincludes.asp" "ConfigEventDef.asp" "ClientMenu.asp" "ChooseRegOld.asp" "ChooseRegNew.asp" "ChooseRegMultiUpdateForm.asp" "ChooseRegMultiUpdate.asp" "ChooseReg.asp" "CheckDupesEmailAjax.asp" "CheckDupesAjax.asp" "CheckDupes.asp" "ChangeRequestList.asp" "ChangeRequestDetail.asp" "ChangeRequest.asp" "BulkSendConfirmation.asp" "BulkSendAlternateEmail.asp" "BulkEmailSendingResults.asp" "BulkEmailSearchResults.asp" "BulkEmailConfirmation.asp" "BulkConfirmationEmailSearch.asp" "BulkAlternateEmailResults.asp" "BrowserCheck.asp" "BizRuleFunctions.js" "BizRule.asp" "barcode.asp" "AddSessionScanForm.asp" "AddSessionScan.asp" "ACSMemberLookup.asp" "ACSAjax.asp" ".svn/" "#MainMenu.asp#" "../" "./")
+
+ ("//dev3/OnsiteXpressReg/Register/aall0717_onsite/lookup/" (22856 15558 0 0) "start.asp" "results.asp" "lookup.asp" "includes/" "admin.asp" "actions/" "../" "./")
+
+ ("//dev3/OnsiteXpressReg/Register/aall0717_onsite/" (22858 53692 0 0) "xpresstoolkit/" "upgrade/" "test/" "printbadge_p.asp" "PageRefreshTimes.asp" "noapi/" "lookup/" "invite/" "includes/" "exhibitor/" "error.asp" "emails/" "custom.asp" "confirm.asp" "attendee/" "assets/" ".wd documentation/" ".svn/" "../" "./")
+
+ ("//dev3/OnsiteXpressReg/core/Austin1ApiAsp/classes/" (22811 8885 0 0) "Workstation.asp" "UIUtils.asp" "DBTools.asp" "DataUtils.asp" "CDSEvent_Original.asp" "CDSEvent_old.asp" "CDSEvent.asp" "../" "./")
+
+ ("//dev3/OnsiteXpressReg/Register/isna0717_onsite/lookup/" (22850 35132 0 0) "start.asp" "results.asp" "reprintfee_p.asp" "payment_p.asp" "payment.asp" "lookup.asp" "includes/" "images/" ".#start.asp" "#start.asp#" "../" "./")
+
+ ("c:/Users/eellis/Desktop/nn/" (22850 36635 0 0) "../" "./")
+
+ ("c:/Users/eellis/Desktop/" (22850 36637 0 0) "XpressReg (dev3) (Z) - Shortcut.lnk" "wwwroot - Shortcut.lnk" "web-dev-tools-master/" "Untitled.png" "test.java" "test/" "Papercut.appref-ms" "p" "OnsiteEventMonitor/" "nn/" "Google Chrome.lnk" "geomap/" "emacs-25.2-x86_64.zip" "desktop.ini" "bak/" "Atom.lnk" "#test.java#" "../" "./")
+
+ ("//dev3/OnsiteXpressReg/Register/isna0717_onsite/lookup/includes/" (22849 21942 0 0) "header.asp" "footer.asp" ".#header.asp" "#header.asp#" "../" "./")
+
+ ("//dev3/OnsiteXpressReg/Register/isna0717_onsite/" (22830 50765 0 0) "start.asp" "printbadge_p.asp" "PageRefreshTimes.asp" "onsiteEmail_v1/" "noapi/" "lookup/" "includes/" "exhibitor/" "error.asp" "custom.asp" "confirm.asp" "attendee/" "assets/" "../" "./")
+
+ ("//dev3/OnsiteXpressReg/Register/aacc0717_onsite/assets/css/" (22786 11610 0 0) "typeahead.min.css" "typeahead.css.map" "typeahead.css" "slider.min.css" "slider.css" "show_main_media.css" "show_main.min.css" "show_main.css.map" "show_main.css" "less/" "jquery.dataTables.min.css" "font-awesome.min.css" "font-awesome.min - Copy.css" "datepicker.min.css" "datepicker.css" "datatables.min.css" "dataTables.fontAwesome.css" "datatables.css" "dataTables.bootstrap.min.css" "dataTables.bootstrap.css" "cds_main.min.css" "cds_main.css.map" "cds_main.css" "cds_fa_icons.min.css" "cds_fa_icons.css" "bootstrapRRC.min.css" "bootstrap.min.css" "bootstrap.css.map" "bootstrap.css" "bootstrap-multiselect.css" "../" "./")
+
+ ("//dev3/OnsiteXpressReg/Register/aacc0717_onsite/assets/" (22786 11614 0 0) "pdf/" "js/" "images/" "fonts - Copy/" "fonts/" "css/" "../" "./")
+
+ ("//dev3/OnsiteXpressReg/Register/aacc0717_onsite/includes/" (22786 11616 0 0) "zipcodelookup.asp" "webreggenresponsive.asp" "webitemgen_sessions.asp" "webitemgenresponsive_sessions.asp" "webitemgenresponsive_sessions - Copy.asp" "webitemgenresponsive_price_tiers_display_nonmember.asp" "webitemgenresponsive_price_tiers_display.asp" "webitemgenresponsive_price_tiers.asp" "webitemgenresponsive_packages.asp" "webitemgenresponsive.asp" "webdemogenresponsive.asp" "webconfig_ajax.asp" "webconfig.asp" "tooltip.asp" "test_mode.asp" "termsconditions_ex.asp" "termsconditions.asp" "techsupport.asp" "techInfo.asp" "tcpdf/" "sightmaxchat.asp" "reghours.asp" "promovalidation.asp" "progress_bar.asp" "product.asp" "PageRefreshTimes.asp" "obj_alertmsg.asp" "objupgrade_Set_RegClass.asp" "objupgrade_Remove_Items.asp" "objupgrade_Insert_NewItems.asp" "objupgrade_Insert_Guest.asp" "objupgrade_Delete_CachedSessionItems.asp" "objsession_JavaScript.asp" "objsession_DeSelect_Upgrade.asp" "objsession_DeSelect_Upgrade - 20170330.asp" "objsession_DeSelect_Upgrade - 20170310asp" "objsession_DeSelect_Attendee.asp" "objsession_DeSelect_Attendee - 20170330.asp" "objsession_DeSelect_Attendee - 20170306.asp" "objsession_Components.asp" "objsession_Ajax_Upgrade.asp" "objsession_Ajax.asp" "objsearch_JavaScript.asp" "objsearch_Functions.asp" "objsearch_Advanced.asp" "objsearch.asp" "objpromo_updater_attendee.asp" "objpromo_updater_ajax.asp" "objpricing_updater.asp" "objprevious_selected_upgrade.asp" "objprevious_selected_attendee.asp" "objgetPackagePageItems.asp" "objgetPackagePageItemDescriptions.asp" "objdemographics_Prepopulate_JavaScript.asp" "objdemographics_Prepopulate.asp" "objdemographics_JavaScript.asp" "objconnemail.asp" "objajax_membership_options.asp" "objadovbs.asp" "noscriptblock.asp" "mailconfig.asp" "header_tech.asp" "header_nodb_common_code.asp" "header_nodb.asp" "header_common_head.asp" "header_common_code.asp" "headerprint.asp" "header.asp" "getreg.asp" "getitems.asp" "functions.asp" "fpdi/" "footer_tech.asp" "footer_common_script.asp" "footer_common_code_ex.asp" "footer_common_code.asp" "footerprint.asp" "footer.asp" "febe_mode.asp" "eventinformation.asp" "emailuniquevalidation.asp" "cscinstructions.asp" "checkquotaforitemsselected_UPG.asp" "checkquotaforitemsselected.asp" "CASLHelperText.html" "CASLDialog.asp" "badgepreview.asp" "aspJSON1.17.asp" "ajaxFunctions.asp" "../" "./")
+
+ ("//dev3/OnsiteXpressReg/Register/" (22840 2763 0 0) "wocn0517_onsite/" "wmts0617_onsite_manned/" "wmts0617_onsite/" "wind0517_onsite_manned/" "wind0517_onsite/" "WildDog/" "web.config.old10182012_A" "wcxp0417_onsite/" "wcaa0817_onsite/" "verification/" "tran0417_onsite/" "Thumbs.db" "thor0517_onsite_store/" "thor0517_onsite_manned/" "thor0517_onsite/" "tele0417_onsite/" "spie0817_onsite/" "sign0417_onsite_manned/" "sign0417_onsite/" "sfnx1116_onsite/" "sfnx109_onsite/" "sfnx109a/" "sfnx109/" "setbesession.asp" "sens0617_onsite/" "semi0717_onsite_manned/" "semi0717_onsite/" "segl0417_onsite/" "SCRAPS/" "rsrs0617_onsite/" "rspx0417_onsite/" "reco0517_onsite_manned/" "reco0517_onsite/" "rapd0517_onsite_manned/" "rapd0517_onsite/" "QATools/" "prof0417_onsite/" "PriMedOS/" "prim0617_onsite/" "Pri-Med/" "phow0117_onsite/" "ones0417_onsite/" "novi0617_onsite/" "ncea0417_onsite/" "mq_test/" "memberSSOlookup.php" "medl0517_onsite/" "lvms0717_onsite/" "lith0217_onsite/" "isna0717_onsite/" "IMTS090_onsite/" "images/" "iecs0617_onsite/" "idax0417_onsite/" "ibsh0617_onsite/" "hr2017_onsite_manned/" "hr2017_onsite/" "hr2014_onsite/" "hr2013_onsite/" "exbi0417_onsite/" "endo0417_onsite/" "east0517_onsite_manned/" "east0517_onsite/" "ddwk0517_onsite_manned/" "ddwk0517_onsite/" "dcom0417_onsite/" "cyto0617_onsite/" "cwsh0417_onsite_manned/" "cwsh0417_onsite/" "cwsh/" "cds_eval/" "ccwe101_onsite/" "betc0517_onsite_manned/" "betc0517_onsite/" "bcvs0717_onsite/" "atvb0517_onsite/" "asmm0517_onsite/" "ascr0517_onsite/" "apaa058_onsite/" "aist0517_onsite/" "acsa0417_onsite_manned/" "acsa0417_onsite/" "aapm0717_onsite_manned/" "aapm0717_onsite/" "aaos0417_onsite/" "aais0517_onsite/" "aacc0717_onsite_manned/" "aacc0717_onsite/" "../" "./")
+
+ ("//dev3/OnsiteXpressReg/Register/aacc0717_onsite/lookup/" (22786 11617 0 0) "printbadge.asp" "lookup_p.asp" "lookup.asp" "error.asp" "confirm.asp" "../" "./")
+
+ ("//dev3/OnsiteXpressReg/Register/aacc0717_onsite/" (22838 62529 0 0) "start_p.asp" "start.asp" "pdf/" "pagerefreshtimes.asp" "noapi/" "lookup/" "landing.asp" "includes/" "error.asp" "custom.asp" "certhtml/" "certadmin/" "attendee/" "assets/" "../" "./")
+
+ ("c:/Program Files/emacs/bin/" (22847 58989 0 0) "test.c" "runemacs.exe - Shortcut.lnk" "runemacs.exe" "libXpm-noX4.dll" "etags.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-25.2.exe" "ebrowse.exe" "ctags.exe" "addpm.exe" "#foo.go#" "../" "./")
+
+ ("c:/inetpub/wwwroot/XpressEReg/" (22841 40418 0 0) "_notes/" "Xet/" "WebWorkbench.mswwsettings" "WebStyle.aspx.cs" "WebStyle.aspx" "web.config" "vwd.webinfo" "UpgradeScripts/" "ThumbNailCreator.aspx.cs" "ThumbNailCreator.aspx" "TextFile.aspx.cs" "TextFile.aspx" "SqlScriptsInstall/" "SqlScripts/" "Scripts/" "SaveTemplate.aspx.cs" "SaveTemplate.aspx" "PromoPricing.aspx.cs" "PromoPricing.aspx" "promoitem.aspx.cs" "promoitem.aspx" "Promo.aspx.cs" "Promo.aspx" "popups/" "PopUpMaster.master.cs" "PopUpMaster.master" "Payment.aspx.cs" "Payment.aspx" "PassbookPage/" "packages.config" "NewEvent.aspx.cs" "NewEvent.aspx" "mobileinq/" "menucontrol.ascx.cs" "menucontrol.ascx" "MediaPage/" "MasterPage_Html.master.cs" "MasterPage_Html.master" "MasterPage2.master.cs" "MasterPage2.master" "MasterPage.master.cs" "MasterPage.master" "Login.aspx.cs" "Login.aspx" "ItemToRegClass.aspx.cs" "ItemToRegClass.aspx" "Items.aspx.cs" "Items.aspx" "ItemPricing.aspx.cs" "ItemPricing.aspx" "ItemEdit.aspx.cs" "ItemEdit.aspx" "InstructionHtml/" "InstallPrerequisites.aspx.cs" "InstallPrerequisites.aspx" "InquiryPage/" "Includes/" "Images/" "ImageGallery.aspx.cs" "ImageGallery.aspx" "filelist.aspx.cs" "filelist.aspx" "events.aspx.cs" "events.aspx" "EventINstructions.html" "eSiteMaster.master.cs" "eSiteMaster.master" "eSite/" "Error.aspx.cs" "Error.aspx" "eRegSprocs.sql" "EmailConfirm014.aspx.cs" "EmailConfirm014.aspx" "EmailConfirm.aspx.cs" "EmailConfirm.aspx" "Documentation/" "Demo.aspx.cs" "Demo.aspx" "DeleteImage.aspx.cs" "DeleteImage.aspx" "Default.aspx.cs" "Default.aspx" "default.asp" "CreateNewEvent.aspx.cs" "CreateNewEvent.aspx" "CopyTest.aspx.cs" "CopyTest.aspx" "ConnPools.aspx.cs" "ConnPools.aspx" "ClassDef.aspx.cs" "ClassDef.aspx" "ChooseEvent.aspx.cs" "ChooseEvent.aspx" "Choose.aspx.cs" "Choose.aspx" "CDSInqMasterPage.master.cs" "CDSInqMasterPage.master" "Bin/" "Attendee.aspx.cs" "Attendee.aspx" "App_WebReferences/" "App_Themes/" "App_Data/" "App_Code/" "AjaxTesterPage.aspx.cs" "AjaxTesterPage.aspx" "AdminViewErrorLog.aspx.cs" "AdminViewErrorLog.aspx" "AdminViewChangeLog.aspx.cs" "AdminViewChangeLog.aspx" "AdminMembership.aspx.cs" "AdminMembership.aspx" "AdminEmailTemplates.aspx.cs" "AdminEmailTemplates.aspx" "Admin.asp" "Admin (2).asp" "actions/" ".svn/" "../" "./")
+
+ ("c:/inetpub/wwwroot/XpressEReg/App_Themes/standard/" (22841 32694 0 0) "page_style.css" "images/" "Default.skin" "Default.css" "../" "./")
+
+ ("c:/Users/eellis/Desktop/OnsiteEventMonitor/Source Code/Onsite Event Monitor/OnsiteUptimeMonitorService/Logging/" (22846 42000 0 0) "Logger.cs" "LogData.cs" "#Logger.cs#" "../" "./")
+
+ ("h:/Projects/Tech Support Project/Help Desk Project Site/Styles/" (22846 46984 0 0) "main.css" "bootstrap.min.css" "../" "./")
+
+ ("c:/inetpub/wwwroot/ceu2xml/" (22846 47290 0 0) "webConfig.php" "utf8test.php" "nbproject/" "medbiqceu.php" "index.php" "includes/" "files/" "docs/" "db.php" "csv2xml.php" "cleanchars.php" "ceuwrap.php" "ceu2xml.php" "ActivityReports.xsd" "../" "./")
+
+ ("h:/Projects/Tech Support Project/Help Desk Project Site/" (22846 46972 0 0) "Web.Debug.config" "Web.config" "Styles/" "Scripts/" "RedirectPages/" "packages.config" "Images/" "fonts/" "Documentation/" "Default.aspx.cs" "Default.aspx" "Bin/" "App_Data/" "App_Code/" ".gitattributes" ".git/" ".#Default.aspx" "../" "./")
+
+ ("h:/Projects/Tech Support Project/Help Desk Project Site/App_Code/" (21943 33499 0 0) "Helper Classes/" "GlobalSuppressions.cs" "DataSet1.xss" "DataSet1.xsd" "ApplicationData.xss" "ApplicationData.xsd" "../" "./")
+
+ ("//dev3/OnsiteXpressReg/Register/cyto0617_onsite/" (22802 3907 0 0) "start.asp" "lookup/" "landing_onsite.asp" "includes/" "error.asp" "default.asp" "custom.asp" "assets/" "../" "./")
+
+ ("//dev3/OnsiteXpressReg/Register/cyto0617_onsite/lookup/" (22846 44491 0 0) "savereg.asp" "print.asp" "payment_p.asp" "payment.asp" "packages_p.asp" "packages.asp" "lookup_p.asp" "lookup.asp" "error.asp" "email.asp" "confirm.asp" "../" "./")
+
+ ("c:/Users/eellis/Desktop/OnsiteEventMonitor/Source Code/Onsite Event Monitor/OnsiteUptimeMonitorService/Database/" (22829 55423 0 0) "SqlParser.cs" "ConnectionStringHelpers.cs" "Connection.cs" "../" "./")
+
+ ("c:/Users/eellis/Desktop/OnsiteEventMonitor/Source Code/Onsite Event Monitor/OnsiteUptimeMonitorService/" (22829 52333 0 0) "README.txt" "Properties/" "OnsiteUptimeMonitorService.sln" "OnsiteUptimeMonitorService.csproj.user" "OnsiteUptimeMonitorService.csproj" "obj/" "Monitor/" "Logging/" "Helpers/" "EmailTest/" "Email/" "Database/" "Configuration/" "bin/" "App.config" ".vs/" "../" "./")
+
+ ("c:/Users/eellis/Desktop/OnsiteEventMonitor/Source Code/Onsite Event Monitor/" (22829 52331 0 0) "OnsiteUptimeMonitorService/" "Onsite Event Monitor/" "../" "./")
+
+ ("c:/Users/eellis/Desktop/OnsiteEventMonitor/Source Code/" (22829 52329 0 0) "Onsite Event Monitor/" "../" "./")
+
+ ("c:/Users/eellis/Desktop/OnsiteEventMonitor/" (22829 52334 0 0) "UptimeMonitorInstall/" "Source Code/" "Sample Config Files/" "Resources/" "Releases/" "Psuedo Code/" "Documentation/" ".svn/" "../" "./")
+
+ ("c:/Users/eellis/Desktop/test/" (22841 37102 0 0) "readme.md" "js/" "index.html" "fonts/" "css/" "#index.html#" "../" "./")
+
+ ("c:/inetpub/wwwroot/XpressEReg_2/" (22842 44996 0 0) "_notes/" "Xet/" "WebWorkbench.mswwsettings" "WebStyle.aspx.cs" "WebStyle.aspx" "web.config.Stg" "web.config.Prod" "web.config.NoPoolSetting" "web.config" "vwd.webinfo" "UpgradeScripts/" "ThumbNailCreator.aspx.cs" "ThumbNailCreator.aspx" "TextFile.aspx.cs" "TextFile.aspx" "testing.aspx.cs" "testing.aspx" "SysNotAvail.aspx.cs" "SysNotAvail.aspx" "SqlScriptsInstall/" "SqlScripts/" "Scripts/" "SaveTemplate.aspx.cs" "SaveTemplate.aspx" "PromoPricing.aspx.cs" "PromoPricing.aspx" "promoitem.aspx.cs" "promoitem.aspx" "Promo.aspx.cs" "Promo.aspx" "popups/" "PopUpMaster.master.cs" "PopUpMaster.master" "Payment.aspx.cs" "Payment.aspx" "PassbookPage/" "packages.config" "packages/" "NewEvent.aspx.cs" "NewEvent.aspx" "navigation.htm" "mobileinq/" "menucontrol.ascx.cs" "menucontrol.ascx" "MediaPage/" "MasterPage_Html.master.cs" "MasterPage_Html.master" "MasterPage2.master.cs" "MasterPage2.master" "MasterPage2.htm" "MasterPage.master.cs" "MasterPage.master" "MasterPage.htm" "LoginByPass.aspx.cs" "LoginByPass.aspx" "Login.aspx.cs" "Login.aspx" "ItemToRegClass.aspx.cs" "ItemToRegClass.aspx" "Items.aspx.old10072014.exclude" "Items.aspx.cs.old10072014.exclude" "Items.aspx.cs" "Items.aspx" "ItemPricing.aspx.cs" "ItemPricing.aspx" "InstructionHtml/" "InstallPrerequisites.aspx.cs" "InstallPrerequisites.aspx" "InquiryPage/" "Includes/" "Images/" "ImageGallery.aspx.cs" "ImageGallery.aspx" "filelist.aspx.cs" "filelist.aspx" "events.aspx.cs" "events.aspx" "EventINstructions.html" "eSiteMaster.master.cs" "eSiteMaster.master" "eSite/" "Error.aspx.cs" "Error.aspx" "eRegZACS026/" "eRegSprocs.sql" "eRegSPCI1116/" "eRegLMGE124/" "eRegCSCP0717/" "eReg/" "EmailConfirm014.aspx.cs" "EmailConfirm014.aspx" "EmailConfirm.aspx.cs" "EmailConfirm.aspx" "Documentation/" "Demo.aspx.cs" "Demo.aspx" "DeleteImage.aspx.cs" "DeleteImage.aspx" "Default.aspx.cs" "Default.aspx" "default.asp" "CustomScripts/" "CreateNewEvent.aspx.cs" "CreateNewEvent.aspx" "CopyTest.aspx.cs" "CopyTest.aspx" "ConnPools.aspx.cs" "ConnPools.aspx" "ClassDef.aspx.cs" "ClassDef.aspx" "ChooseEvent.aspx.cs" "ChooseEvent.aspx" "Choose.aspx.cs" "Choose.aspx" "ChangePassword.aspx.cs" "ChangePassword.aspx" "CDSInqMasterPage.master.cs" "CDSInqMasterPage.master" "Bin/" "Attendee.aspx.cs" "Attendee.aspx" "App_WebReferences/" "App_Themes/" "App_Data/" "App_Code/" "Ajax.dll" "AdminViewErrorLog.aspx.cs" "AdminViewErrorLog.aspx" "AdminViewChangeLog.aspx.cs" "AdminViewChangeLog.aspx" "AdminMembership.aspx.cs" "AdminMembership.aspx" "AdminEmailTemplates.aspx.cs" "AdminEmailTemplates.aspx" "Admin.asp" "actions/" ".svn/" "../" "./")
+
+ ("c:/Users/eellis/Desktop/test/css/" (22840 23253 0 0) "main.css" "bootstrap.min.css.material" "bootstrap.min.css" "bootstrap.css.map" "bootstrap.css" "bootstrap-theme.min.css" "bootstrap-theme.css.map" "bootstrap-theme.css" "../" "./")
+
+ ("c:/Users/eellis/" (22841 27148 0 0) "Videos/" "tslint.json" "Templates/" "Start Menu/" "SendTo/" "Searches/" "Saved Games/" "Recent/" "PrintHood/" "Pictures/" "ntuser.pol" "ntuser.ini" "NTUSER.DAT{b4f92081-714a-11e4-80c6-b8ca3aee1197}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{b4f92081-714a-11e4-80c6-b8ca3aee1197}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{b4f92081-714a-11e4-80c6-b8ca3aee1197}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "Intel/" "Favorites/" "Downloads/" "Documents/" "Desktop/" "Cookies/" "Contacts/" "coffeelint.json" "Application Data/" "AppData/" ".productivitypowerpack2017" ".nuget/" ".eslintrc" ".emacs.d/" ".csslintrc" ".atom/" "#testdata.csv#" "../" "./")
+
+ ("c:/inetpub/wwwroot/XpressEReg/App_Themes/" (22841 28967 0 0) "standard/" "../" "./")
+
+ ("c:/inetpub/wwwroot/XpressEReg/Bin/" (22841 28968 0 0) "safe/" "Moxiecode.TinyMCE.dll.refresh" "Moxiecode.TinyMCE.dll" "MCManager.dll" "MCImageManager.dll.refresh" "MCImageManager.dll" "ICSharpCode.SharpZipLib.dll" "HtmlSanitizationLibrary.xml" "HtmlSanitizationLibrary.dll.refresh" "HtmlSanitizationLibrary.dll" "CKEditor.NET.pdb.exclude" "CKEditor.NET.dll.refresh.exclude" "CKEditor.NET.dll.exclude" "CdsStdLib.pdb" "CdsStdLib.dll.refresh" "CdsStdLib.dll" "AntiXssLibrary.xml" "AntiXssLibrary.dll.refresh" "AntiXssLibrary.dll" "AjaxControlToolkit.pdb" "AjaxControlToolkit.dll.refresh" "AjaxControlToolkit.dll" "../" "./")
+
+ ("c:/inetpub/wwwroot/XpressEReg/_notes/" (22841 29031 0 0) "nav_Events_f2.gif.mno" "nav_Events.gif.mno" "../" "./")
+
+ ("c:/inetpub/wwwroot/XpressEReg/App_Code/" (22841 28967 0 0) "XpressRegPortalDS.xss" "XpressRegPortalDS.xsd" "XpressESiteProjectOverviewDS.xss" "XpressESiteProjectOverviewDS.xsd" "XpressESiteGraphicDesignDS.xss" "XpressESiteGraphicDesignDS.xsd" "XpressESiteDS.xss" "XpressESiteDS.xsd" "XpressERegWebStyles.xss" "XpressERegWebStyles.xsd" "XpressERegPromosDs.xss" "XpressERegPromosDs.xsd" "XpressEregEventInfo.xss" "XpressEregEventInfo.xsd" "XETTools.cs" "WebRegDefinitionsFields.cs" "UserObjectTypes.cs" "SSLClass.cs" "SessionObj.cs" "MemObjectTypes.cs" "MediaPageToolsClass.cs" "MediaPageFieldsClass.cs" "InquiryToolsClass.cs" "InquiryExtraInfos.cs" "ImageResize.cs" "FieldObjectType.cs" "EventObjectTypes.cs" "Enums.cs" "DAL/" "CDS_Inq_DS.xss" "CDS_Inq_DS.xsd" "CDSMemberShipProvider.cs" "CDSEventInfoDS.xss" "CDSEventInfoDS.xsd" "BAL/" "../" "./")
+
+ ("c:/inetpub/" (22841 29420 0 0) "wwwroot/" "test/" "temp/" "logs/" "history/" "custerr/" "../" "./")
+
+ ("c:/Users/" (22823 14757 0 0) "sleeman.admin/" "sleeman/" "Public/" "MSSQLSERVER/" "eellis/" "desktop.ini" "DefaultAppPool/" "Default User/" "Default/" "Classic .NET AppPool/" "CDSAdmin/" "All Users/" "Administrator/" ".NET v4.5 Classic/" ".NET v4.5/" ".NET v2.0 Classic/" ".NET v2.0/" "../" "./")
+
+ ("c:/Users/eellis/AppData/" (22674 32484 0 0) "Roaming/" "LocalLow/" "Local/" "../" "./")
+
+ ("c:/inetpub/wwwroot/FAQ/" (22840 22498 0 0) "js/" "images/" "fonts/" "faq_controller.php" "faq.html" "db/" "css/" "app/" "api.php" "admin.php" ".htaccess" "../" "./")
+
+ ("c:/Program Files/emacs/" (22829 32045 0 0) "var/" "share/" "libexec/" "bin/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
