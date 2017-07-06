@@ -101,12 +101,28 @@
 
 ;(load-theme 'silkworm t)
 ;; moe moe kyun kyun
-(require 'moe-theme)
-(setq moe-theme-highlight-buffer-id nil)
-(moe-theme-set-color 'cyan)
+;(require 'moe-theme)
+;(setq moe-theme-highlight-buffer-id nil)
+;(moe-theme-set-color 'cyan)
 
-(moe-dark)
+;(moe-dark)
 ;(powerline-moe-theme)
+
+(require 'doom-themes)
+
+;; Global settings (defaults)
+(setq doom-themes-enable-bold t    ; if nil, bold is universally disabled
+      doom-themes-enable-italic t) ; if nil, italics is universally disabled
+
+;; Load the theme (doom-one, doom-molokai, etc); keep in mind that each theme
+;; may have their own settings.
+(load-theme 'doom-molokai t)
+
+;; Enable flashing mode-line on errors
+(doom-themes-visual-bell-config)
+
+;; Enable custom neotree theme
+(doom-themes-neotree-config)  ; all-the-icons fonts must be installed!
 
 ;; Sublimity
 ;(require 'sublimity)
@@ -125,10 +141,44 @@
 (require 'evil)
 (evil-mode 1)
 
+(when (window-system)
+  (set-default-font "Fira Code"))
+(let ((alist '((33 . ".\\(?:\\(?:==\\|!!\\)\\|[!=]\\)")
+               (35 . ".\\(?:###\\|##\\|_(\\|[#(?[_{]\\)")
+               (36 . ".\\(?:>\\)")
+               (37 . ".\\(?:\\(?:%%\\)\\|%\\)")
+               (38 . ".\\(?:\\(?:&&\\)\\|&\\)")
+               (42 . ".\\(?:\\(?:\\*\\*/\\)\\|\\(?:\\*[*/]\\)\\|[*/>]\\)")
+               (43 . ".\\(?:\\(?:\\+\\+\\)\\|[+>]\\)")
+               (45 . ".\\(?:\\(?:-[>-]\\|<<\\|>>\\)\\|[<>}~-]\\)")
+               (46 . ".\\(?:\\(?:\\.[.<]\\)\\|[.=-]\\)")
+               (47 . ".\\(?:\\(?:\\*\\*\\|//\\|==\\)\\|[*/=>]\\)")
+               (48 . ".\\(?:x[a-zA-Z]\\)")
+               (58 . ".\\(?:::\\|[:=]\\)")
+               (59 . ".\\(?:;;\\|;\\)")
+               (60 . ".\\(?:\\(?:!--\\)\\|\\(?:~~\\|->\\|\\$>\\|\\*>\\|\\+>\\|--\\|<[<=-]\\|=[<=>]\\||>\\)\\|[*$+~/<=>|-]\\)")
+               (61 . ".\\(?:\\(?:/=\\|:=\\|<<\\|=[=>]\\|>>\\)\\|[<=>~]\\)")
+               (62 . ".\\(?:\\(?:=>\\|>[=>-]\\)\\|[=>-]\\)")
+               (63 . ".\\(?:\\(\\?\\?\\)\\|[:=?]\\)")
+               (91 . ".\\(?:]\\)")
+               (92 . ".\\(?:\\(?:\\\\\\\\\\)\\|\\\\\\)")
+               (94 . ".\\(?:=\\)")
+               (119 . ".\\(?:ww\\)")
+               (123 . ".\\(?:-\\)")
+               (124 . ".\\(?:\\(?:|[=|]\\)\\|[=>|]\\)")
+               (126 . ".\\(?:~>\\|~~\\|[>=@~-]\\)")
+               )
+             ))
+  (dolist (char-regexp alist)
+    (set-char-table-range composition-function-table (car char-regexp)
+                          `([,(cdr char-regexp) 0 font-shape-gstring]))))
+
+
 ;; highlight words
 ;(add-hook 'prog-mode-hook (lambda () (idle-highlight-mode t)))
 
 ;;(setq inferior-lisp-program "clisp.exe")
+
 ;;(load "C:\\quicklisp\\slime-helper.el")
 
 ;; smart mode line
@@ -190,7 +240,7 @@
     ("#dc322f" "#cb4b16" "#b58900" "#546E00" "#B4C342" "#00629D" "#2aa198" "#d33682" "#6c71c4")))
  '(package-selected-packages
    (quote
-    (2048-game speed-type fireplace powerline-evil sublimity zenburn-theme web-mode vimish-fold undo-tree solarized-theme smart-mode-line-powerline-theme skewer-mode silkworm-theme plan9-theme omnisharp moe-theme minimap markdown-mode+ macrostep leuven-theme idle-highlight-mode highlight-quoted goto-chg go-eldoc go-complete go-autocomplete gh font-lock+ exec-path-from-shell drag-stuff cyberpunk-theme)))
+    (doom-themes 2048-game speed-type fireplace powerline-evil sublimity zenburn-theme web-mode vimish-fold undo-tree solarized-theme smart-mode-line-powerline-theme skewer-mode silkworm-theme plan9-theme omnisharp moe-theme minimap markdown-mode+ macrostep leuven-theme idle-highlight-mode highlight-quoted goto-chg go-eldoc go-complete go-autocomplete gh font-lock+ exec-path-from-shell drag-stuff cyberpunk-theme)))
  '(pos-tip-background-color "#073642")
  '(pos-tip-foreground-color "#93a1a1")
  '(smartrep-mode-line-active-bg (solarized-color-blend "#859900" "#839496" 0.2))
