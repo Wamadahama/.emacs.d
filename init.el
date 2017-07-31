@@ -12,6 +12,8 @@
 ;; You may delete these explanatory comments.
 (package-initialize)
 
+(load "~/.emacs.d/laravel-dev.el")
+
 
 ;; Update packages 
 (when (not package-archive-contents)
@@ -19,7 +21,7 @@
 
 ;; remove ugly
 ;(split-window-horizontally)
-(set-default-font "Consolas-10")
+(set-default-font "Fira Code 9")
 (tool-bar-mode 0)
 (scroll-bar-mode 0)
 (mouse-wheel-mode 1)
@@ -46,6 +48,12 @@
 (add-to-list 'auto-mode-alist '("\\.php\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.aspx\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.asp\\'" . web-mode))
+
+;; Blade to webmode 
+(setq web-mode-engines-alist
+   '(("php"    . "\\.phtml\\'")
+    ("blade"  . "\\.blade\\."))
+)
 
 ;; easier windows movement (<ALT> + ARROW KEYS)
 (when (fboundp 'windmove-default-keybindings)
@@ -108,6 +116,16 @@
 ;(moe-dark)
 ;(powerline-moe-theme)
 
+
+(require 'neotree)
+(global-set-key [f8] 'neotree-toggle)
+(require 'all-the-icons)
+
+
+;(setq neo-theme (if (display-graphic-p) 'icons 'arrow))
+
+(setq neo-theme 'arrows)
+
 (require 'doom-themes)
 
 ;; Global settings (defaults)
@@ -116,13 +134,15 @@
 
 ;; Load the theme (doom-one, doom-molokai, etc); keep in mind that each theme
 ;; may have their own settings.
-(load-theme 'doom-molokai t)
+(load-theme 'doom-one t)
 
 ;; Enable flashing mode-line on errors
 (doom-themes-visual-bell-config)
 
 ;; Enable custom neotree theme
-(doom-themes-neotree-config)  ; all-the-icons fonts must be installed!
+;(doom-themes-neotree-config)  ; all-the-icons fonts must be installed!
+
+
 
 ;; Sublimity
 ;(require 'sublimity)
@@ -197,6 +217,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(Linum-format "%7i ")
+ '(ansi-color-faces-vector
+   [default bold shadow italic underline bold bold-italic bold])
  '(ansi-color-names-vector
    ["black" "#d55e00" "#009e73" "#f8ec59" "#0072b2" "#cc79a7" "#56b4e9" "white"])
  '(compilation-message-face (quote default))
@@ -206,8 +229,10 @@
  '(cua-read-only-cursor-color "#859900")
  '(custom-safe-themes
    (quote
-    ("d5f17ae86464ef63c46ed4cb322703d91e8ed5e718bf5a7beb69dd63352b26b2" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "2cf7f9d1d8e4d735ba53facdc3c6f3271086b6906c4165b12e4fd8e3865469a6" "43c1a8090ed19ab3c0b1490ce412f78f157d69a29828aa977dae941b994b4147" "b747fb36e99bc7f497248eafd6e32b45613ee086da74d1d92a8da59d37b9a829" default)))
+    ("9b402e9e8f62024b2e7f516465b63a4927028a7055392290600b776e4a5b9905" "d606ac41cdd7054841941455c0151c54f8bff7e4e050255dbd4ae4d60ab640c1" "ad30746a316d5fb6fedfb585c0aff4f795730d874e3cff87fe33120377a7b8de" "8bb8a5b27776c39b3c7bf9da1e711ac794e4dc9d43e32a075d8aa72d6b5b3f59" "bc40f613df8e0d8f31c5eb3380b61f587e1b5bc439212e03d4ea44b26b4f408a" "5cd0afd0ca01648e1fff95a7a7f8abec925bd654915153fb39ee8e72a8b56a1f" "28ec8ccf6190f6a73812df9bc91df54ce1d6132f18b4c8fcc85d45298569eb53" "9d91458c4ad7c74cf946bd97ad085c0f6a40c370ac0a1cbeb2e3879f15b40553" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "b9e9ba5aeedcc5ba8be99f1cc9301f6679912910ff92fdf7980929c2fc83ab4d" "8d737627879eff1bbc7e3ef1e9adc657207d9bf74f9abb6e0e53a6541c5f2e88" "0f0022c8091326c9894b707df2ae58dd51527b0cf7abcb0a310fb1e7bda78cd2" "5310b88333fc64c0cb34a27f42fa55ce371438a55f02ac7a4b93519d148bd03d" "f67652440b66223b66a4d3e9c0ddeddbf4a6560182fa38693bdc4d940ce43a2e" "0eef522d30756a80b28333f05c7eed5721f2ba9b3eaaff244ea4c6f6a1b8ac62" "235dc2dd925f492667232ead701c450d5c6fce978d5676e54ef9ca6dd37f6ceb" "d5f17ae86464ef63c46ed4cb322703d91e8ed5e718bf5a7beb69dd63352b26b2" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "2cf7f9d1d8e4d735ba53facdc3c6f3271086b6906c4165b12e4fd8e3865469a6" "43c1a8090ed19ab3c0b1490ce412f78f157d69a29828aa977dae941b994b4147" "b747fb36e99bc7f497248eafd6e32b45613ee086da74d1d92a8da59d37b9a829" default)))
+ '(fci-rule-character-color "#202020")
  '(fci-rule-color "#073642")
+ '(fringe-mode 4 nil (fringe))
  '(highlight-changes-colors (quote ("#d33682" "#6c71c4")))
  '(highlight-symbol-colors
    (--map
@@ -234,20 +259,101 @@
  '(hl-paren-background-colors (quote ("#e8fce8" "#c1e7f8" "#f8e8e8")))
  '(hl-paren-colors (quote ("#40883f" "#0287c8" "#b85c57")))
  '(inhibit-startup-screen t)
+ '(jdee-db-active-breakpoint-face-colors (cons "#1c1f24" "#51afef"))
+ '(jdee-db-requested-breakpoint-face-colors (cons "#1c1f24" "#7bc275"))
+ '(jdee-db-spec-breakpoint-face-colors (cons "#1c1f24" "#484854"))
  '(magit-diff-use-overlays nil)
+ '(main-line-color1 "#1E1E1E")
+ '(main-line-color2 "#111111")
+ '(main-line-separator-style (quote chamfer))
  '(nrepl-message-colors
    (quote
     ("#dc322f" "#cb4b16" "#b58900" "#546E00" "#B4C342" "#00629D" "#2aa198" "#d33682" "#6c71c4")))
+ '(org-ellipsis "  ")
+ '(org-fontify-done-headline t)
+ '(org-fontify-quote-and-verse-blocks t)
+ '(org-fontify-whole-heading-line t)
  '(package-selected-packages
    (quote
-    (doom-themes 2048-game speed-type fireplace powerline-evil sublimity zenburn-theme web-mode vimish-fold undo-tree solarized-theme smart-mode-line-powerline-theme skewer-mode silkworm-theme plan9-theme omnisharp moe-theme minimap markdown-mode+ macrostep leuven-theme idle-highlight-mode highlight-quoted goto-chg go-eldoc go-complete go-autocomplete gh font-lock+ exec-path-from-shell drag-stuff cyberpunk-theme)))
+    (dark-souls neotree zencoding-mode doom-themes 2048-game speed-type fireplace powerline-evil sublimity zenburn-theme web-mode vimish-fold undo-tree solarized-theme smart-mode-line-powerline-theme skewer-mode silkworm-theme plan9-theme omnisharp moe-theme minimap markdown-mode+ macrostep leuven-theme idle-highlight-mode highlight-quoted goto-chg go-eldoc go-complete go-autocomplete gh font-lock+ exec-path-from-shell drag-stuff cyberpunk-theme)))
+ '(pdf-view-midnight-colors (quote ("#232333" . "#c7c7c7")))
  '(pos-tip-background-color "#073642")
  '(pos-tip-foreground-color "#93a1a1")
+ '(powerline-color1 "#1E1E1E")
+ '(powerline-color2 "#111111")
  '(smartrep-mode-line-active-bg (solarized-color-blend "#859900" "#839496" 0.2))
  '(sml/active-background-color "#98ece8")
  '(sml/active-foreground-color "#424242")
  '(sml/inactive-background-color "#4fa8a8")
  '(sml/inactive-foreground-color "#424242")
+ '(sml/mode-width
+   (if
+       (eq
+	(powerline-current-separator)
+	(quote arrow))
+       (quote right)
+     (quote full)))
+ '(sml/pos-id-separator
+   (quote
+    (""
+     (:propertize " " face powerline-active1)
+     (:eval
+      (propertize " "
+		  (quote display)
+		  (funcall
+		   (intern
+		    (format "powerline-%s-%s"
+			    (powerline-current-separator)
+			    (car powerline-default-separator-dir)))
+		   (quote powerline-active1)
+		   (quote powerline-active2))))
+     (:propertize " " face powerline-active2))))
+ '(sml/pos-minor-modes-separator
+   (quote
+    (""
+     (:propertize " " face powerline-active1)
+     (:eval
+      (propertize " "
+		  (quote display)
+		  (funcall
+		   (intern
+		    (format "powerline-%s-%s"
+			    (powerline-current-separator)
+			    (cdr powerline-default-separator-dir)))
+		   (quote powerline-active1)
+		   (quote sml/global))))
+     (:propertize " " face sml/global))))
+ '(sml/pre-id-separator
+   (quote
+    (""
+     (:propertize " " face sml/global)
+     (:eval
+      (propertize " "
+		  (quote display)
+		  (funcall
+		   (intern
+		    (format "powerline-%s-%s"
+			    (powerline-current-separator)
+			    (car powerline-default-separator-dir)))
+		   (quote sml/global)
+		   (quote powerline-active1))))
+     (:propertize " " face powerline-active1))))
+ '(sml/pre-minor-modes-separator
+   (quote
+    (""
+     (:propertize " " face powerline-active2)
+     (:eval
+      (propertize " "
+		  (quote display)
+		  (funcall
+		   (intern
+		    (format "powerline-%s-%s"
+			    (powerline-current-separator)
+			    (cdr powerline-default-separator-dir)))
+		   (quote powerline-active2)
+		   (quote powerline-active1))))
+     (:propertize " " face powerline-active1))))
+ '(sml/pre-modes-separator (propertize " " (quote face) (quote sml/modes)))
  '(term-default-bg-color "#002b36")
  '(term-default-fg-color "#839496")
  '(vc-annotate-background nil)
