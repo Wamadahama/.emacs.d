@@ -2,10 +2,15 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("c:/Users/eellis/AppData/Roaming/Notepad++/" . "themes/")
+ ("/" . "System Volume Information/")
+ ("c:/Users/eellis/AppData/Roaming/.emacs.d/elpa/" . "moe-theme-20160814.2212/")
+ ("c:/Users/eellis/Desktop/passportpayment/resources/views/admin/edit_order/" . "forms/")
+ ("c:/Users/eellis/Desktop/passportpayment/app/" . "Http/")
  ("c:/Users/eellis/AppData/Roaming/.emacs.d/" . "solarized-emacs/")
  ("c:/Users/eellis/Desktop/passportpayment/resources/views/admin/add_order/" . "forms/")
- ("c:/Users/eellis/Desktop/passportpayment/resources/views/admin/" . "event_reports/")
- ("c:/Users/eellis/Desktop/passportpayment/resources/views/" . "payment/")
+ ("c:/Users/eellis/Desktop/passportpayment/resources/views/admin/" . "edit_order/")
+ ("c:/Users/eellis/Desktop/passportpayment/resources/views/" . "admin/")
  ("c:/Users/eellis/Desktop/passportpayment/resources/" . "views/")
  ("c:/Users/eellis/Desktop/passportpayment/" . "resources/")
  ("c:/Users/eellis/Desktop/passportpayment/app/Http/" . "Controllers/")
@@ -22,9 +27,9 @@
  ("c:/Users/eellis/Desktop/OnsiteEventMonitor/Source Code/Onsite Event Monitor/" . "OnsiteUptimeMonitorService/")
  ("c:/Users/eellis/Desktop/OnsiteEventMonitor/Source Code/" . "Onsite Event Monitor/")
  ("c:/Users/eellis/Desktop/OnsiteEventMonitor/" . "Source Code/")
- ("c:/Users/eellis/AppData/Roaming/" . ".emacs.d/")
+ ("c:/Users/eellis/AppData/Roaming/" . "Notepad++/")
  ("c:/Users/eellis/Desktop/test/" . "css/")
- ("c:/Users/eellis/Desktop/" . "passportpayment/")
+ ("c:/Users/eellis/Desktop/" . "OnsiteEventMonitor/")
  ("c:/Users/eellis/" . "Desktop/")
  ("c:/Users/" . "eellis/")
  ("c:/inetpub/wwwroot/XpressEReg/App_Themes/" . "standard/")
@@ -36,16 +41,21 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "c:/Users/eellis/Desktop/passportpayment/app/Http/Controllers/"
+ "c:/inetpub/wwwroot/ereg/"
+ "c:/Users/eellis/Desktop/OnsiteEventMonitor/Source Code/Onsite Event Monitor/OnsiteUptimeMonitorService/Logging/"
+ "c:/Users/eellis/AppData/Roaming/Notepad++/themes/"
+ "c:/Users/eellis/AppData/Roaming/.emacs.d/"
+ "c:/Users/eellis/AppData/Roaming/.emacs.d/elpa/moe-theme-20160814.2212/"
  "c:/Users/eellis/Desktop/passportpayment/app/"
- "c:/Users/eellis/AppData/Roaming/.emacs.d/solarized-emacs/"
+ "c:/Users/eellis/Desktop/passportpayment/resources/views/admin/edit_order/forms/"
+ "c:/Users/eellis/Desktop/passportpayment/app/Http/Controllers/"
+ "c:/Users/eellis/Desktop/passportpayment/resources/views/admin/add_order/forms/"
  "c:/Users/eellis/Desktop/passportpayment/routes/"
+ "c:/Users/eellis/Desktop/passportpayment/resources/views/admin/event_reports/"
+ "c:/Users/eellis/AppData/Roaming/.emacs.d/solarized-emacs/"
  "c:/Users/eellis/Desktop/passportpayment/resources/views/payment/forms/"
  "c:/Users/eellis/Desktop/passportpayment/resources/views/payment/"
  "c:/Users/eellis/Desktop/passportpayment/resources/views/confirmation/"
- "c:/Users/eellis/Desktop/passportpayment/resources/views/admin/event_reports/"
- "c:/Users/eellis/AppData/Roaming/.emacs.d/"
- "c:/Users/eellis/Desktop/passportpayment/resources/views/admin/add_order/forms/"
  "c:/Users/eellis/Desktop/passportpayment/resources/views/admin/add_order/"
  "c:/Users/eellis/Desktop/"
  "c:/Users/eellis/Desktop/passportpayment/app/Http/Middleware/"
@@ -74,7 +84,6 @@
  "c:/Users/eellis/Desktop/blog/app/"
  "c:/Users/eellis/Desktop/blog/config/"
  "c:/Users/eellis/Desktop/blog/resources/views/"
- "c:/inetpub/wwwroot/ereg/"
  "c:/inetpub/wwwroot/ereg/includes/"
  "c:/inetpub/wwwroot/Admin_V11/"
  "//dev3/OnsiteXpressReg/Register/aall0717_onsite/lookup/"
@@ -82,31 +91,59 @@
  "//dev3/OnsiteXpressReg/core/Austin1ApiAsp/classes/"
  "c:/Users/eellis/Desktop/nn/"
  "//dev3/OnsiteXpressReg/Register/isna0717_onsite/"
- "//dev3/OnsiteXpressReg/Register/isna0717_onsite/lookup/"
- "//dev3/OnsiteXpressReg/Register/aacc0717_onsite/includes/"
- "//dev3/OnsiteXpressReg/Register/aacc0717_onsite/lookup/"
- "c:/Program Files/emacs/bin/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "MailController.php"
- "PaymentController.php"
- "Payments.php"
- "solarized.el"
- "solarized-theme.el"
- "web.php"
- "AdminAddOrderController.php"
- "payment.blade.php"
- "index.blade.php"
- "check.blade.php"
+ "lookup_p.asp"
+ "lookup.asp"
+ "default.asp"
+ "printbadge_p.asp"
+ "lookup_admin.asp"
+ "Logger.cs"
+ "Bespin.xml"
+ "init.el"
+ "moe-dark-theme.el"
+ "Exhibitors.php"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("c:/Users/eellis/Desktop/passportpayment/" (22906 8431 0 0) "vendor/" "tests/" "storage/" "server.php" "routes/" "resources/" "README.md" "public/" "phpunit.xml" "package.json" "gulpfile.js" "foo.txt" "database/" "config/" "composer.phar" "composer.lock" "composer.json" "commit.txt" "changes.txt" "bootstrap/" "artisan" "app/" ".idea/" ".gitignore" ".gitattributes" ".git/" ".env.example" ".env" "../" "./")
+ ("c:/inetpub/wwwroot/" (22886 32330 0 0) "Zack/" "XpressWebRegServiceLogViewer/" "xPressToolkit/" "XpressEReg_2/" "XpressEReg/" "xpc/" "xet_fr/" "xet/" "xee/" "xd_receiver_ssl.htm" "xd_receiver_ssl - Copy.htm" "xd_receiver.htm" "xd_receiver - Copy.htm" "x2/" "well/" "urlPinger/" "TravelPlanners/" "tools4.0/" "TestXCopy/" "TestPermissions/" "Test2.php" "Test2 - Copy.php" "Test.php" "test.asp" "test/" "TechSupportStats/" "TechSupportOld/" "TechSupport/" "sql_text.html" "spike/" "SMESql_after_sponsor.txt" "smbuttons/" "setbesession.asp" "sessiontest.asp" "services/" "SEMSql.txt" "ROMECORE/" "RegisterXpressregWebSite/" "register/" "RegInfoConsumptionTest/" "PriMedMemberTester/" "presdo/" "playground/" "platform.inc" "phpinfo.php" "PhpCoreBeta/" "php.php" "PaymentLogViewer/" "passbook/" "New folder/" "modeldbschema/" "mmax115/" "media_old/" "Media/" "mdev/" "MaxTool/" "Marketing/" "m-milo/" "m-iphone/" "m/" "LRS_Settings2.php" "LRS_Settings.php" "LRSImages/" "isnaex_test.asp" "InquiryPage/" "index.php" "Includes/" "Images/" "iisstart.htm" "IISLogMonitor/" "iis-85.png" "GLMOnsiteReportingApp/" "FAQ/" "exhibitor/" "exc/" "EventAdmin/" "esite/" "eRegSPNY1217/" "eRegSPIR1017/" "eRegSOTH025/" "eRegSMMI1017/" "eRegSMAM1017/" "eRegROCK1017/" "eRegNCPA1017/" "eRegnaco0617/" "eRegMMAX115/" "eRegKMLE0717/" "eRegISNA0717/" "eRegIADR0317/" "eRegFARM0317/" "eRegFABC0318/" "eRegEXBI0417/" "eRegEREG0617/" "eRegDAKO085/" "eRegCNFW0817/" "eRegCMTS0617/" "eRegCJS0915/" "eRegBDNY1117/" "ereg/" "docbuilder/" "DCS_V1/" "dbsetup/" "CrowdCompass/" "CrossDemoExport/" "Coyote/" "CoreStyles/" "CoreServices/" "CoreJS/" "CoreInstructions/" "CoreIncludes/" "CoreImages/" "CoreClasses/" "core/" "cmm/" "clicks/" "ceu2xml/" "CertificatePrintServer_Rick/" "CDSCoreAPI/" "CDSBridgeLiteSampleCSharp/" "CDSBridgeLitePhpSample/" "CDSBiz/" "be_screen_builder/" "BC_Images/" "BarCodeGen/" "BarCode/" "attendee/" "aspnet_client/" "apps/" "Admin_XP/" "Admin_V9/" "Admin_V8/" "Admin_V75/" "Admin_V7/" "Admin_V6/" "Admin_V5/" "Admin_V4/" "Admin_V11/" "Admin_v105/" "Admin_V10/" "#test3.php#" "../" "./")
 
- ("c:/Users/eellis/Desktop/passportpayment/app/Http/Controllers/" (22906 1473 0 0) "tmp" "ReviewController.php" "PaymentController.php" "PackagesController.php" "OrdersController.php" "MailController.php" "ItemsController.php" "HomeController.php" "Controller.php" "ConfirmationController.php" "AdminEventSettingsController.php" "AdminEventsController.php" "AdminEventReportsController.php" "AdminEditOrderController.php" "AdminController.php" "AdminAddOrderController.php" "#PaymentController.php#" "../" "./")
+ ("c:/inetpub/" (22841 29420 0 0) "wwwroot/" "test/" "temp/" "logs/" "history/" "custerr/" "../" "./")
+
+ ("c:/Users/eellis/Desktop/" (22914 17573 0 0) "XpressReg (dev3) (Z) - Shortcut.lnk" "wwwroot - Shortcut.lnk" "web-dev-tools-master/" "vpn.pdf" "test/" "tasks.org" "tasks" "STG and QA Env.vsdx" "step.md" "slurm.html" "pb" "passportpayment/" "Papercut.appref-ms" "p" "OnsiteEventMonitor/" "nn/" "help.md.html" "Google Chrome.lnk" "glue.html" "foo.html" "FiraCode/" "emacs-25.2-x86_64.zip" "desktop.ini" "crfs.md" "coophelp/" "bak/" "badges/" "BadgePrintServer/" "backup/" "Atom.lnk" "06.mp3" "../" "./")
+
+ ("c:/Users/" (22823 14757 0 0) "sleeman.admin/" "sleeman/" "Public/" "MSSQLSERVER/" "eellis/" "desktop.ini" "DefaultAppPool/" "Default User/" "Default/" "Classic .NET AppPool/" "CDSAdmin/" "All Users/" "Administrator/" ".NET v4.5 Classic/" ".NET v4.5/" ".NET v2.0 Classic/" ".NET v2.0/" "../" "./")
+
+ ("c:/Users/eellis/AppData/Roaming/Notepad++/themes/" (22676 55973 0 0) "Zenburn.xml" "vim Dark Blue.xml" "Vibrant Ink.xml" "Twilight.xml" "Solarized.xml" "Solarized-light.xml" "Ruby Blue.xml" "Plastic Code Wrap.xml" "Obsidian.xml" "Navajo.xml" "MossyLawn.xml" "Monokai.xml" "Mono Industrial.xml" "khaki.xml" "HotFudgeSundae.xml" "Hello Kitty.xml" "Deep Black.xml" "Choco.xml" "Black board.xml" "Bespin.xml" "../" "./")
+
+ ("c:/Users/eellis/AppData/Roaming/Notepad++/" (22829 27718 0 0) "themes/" "stylers.xml" "shortcuts.xml" "session.xml" "plugins/" "langs.xml" "functionList.xml" "contextMenu.xml" "config.xml" "backup/" "../" "./")
+
+ ("c:/Users/eellis/AppData/" (22674 32484 0 0) "Roaming/" "LocalLow/" "Local/" "../" "./")
+
+ ("c:/Users/eellis/AppData/Roaming/.emacs.d/" (22916 36629 0 0) "themes/" "switch-bg.el" "solarized-emacs/" "slime/" "README.md" "LICENSE" "laravel-dev.el" "init.el~" "init.el" "ido.last" "foo" "evil/" "elpa/" "auto-save-list/" "ac-comphist.dat" ".git/" "#README.md#" "#foo.c#" "../" "./")
+
+ ("c:/Users/eellis/AppData/Roaming/.emacs.d/elpa/moe-theme-20160814.2212/" (22916 35824 0 0) "moe-theme.elc" "moe-theme.el" "moe-theme-switcher.elc" "moe-theme-switcher.el" "moe-theme-pkg.el" "moe-theme-autoloads.el" "moe-light-theme.el" "moe-dark-theme.el" "../" "./")
+
+ ("c:/Program Files/emacs/" (22829 32045 0 0) "var/" "share/" "libexec/" "bin/" "../" "./")
+
+ ("c:/Users/eellis/AppData/Roaming/.emacs.d/elpa/" (22894 10159 0 0) "zencoding-mode-20140213.22/" "zenburn-theme-20170103.2328/" "yoshi-theme-20170330.0/" "writegood-mode-readme.txt" "web-mode-20170529.1030/" "vimish-fold-20170519.729/" "undo-tree-20140509.522/" "sublimity-20161214.2032/" "subatomic-theme-20160126.738/" "speed-type-20161230.815/" "sourcerer-theme-20161014.925/" "soothe-theme-20141027.741/" "solarized-theme-20161222.109/" "smyx-theme-20141127.28/" "smart-mode-line-powerline-theme-20160705.1738/" "smart-mode-line-20160818.508/" "skewer-mode-20170122.938/" "simple-httpd-20170125.1910/" "silkworm-theme-20160217.509/" "shut-up-20150423.522/" "s-20170428.1026/" "rich-minority-20160725.1255/" "punpun-theme-20161103.147/" "pungi-readme.txt" "powerline-20161121.2320/" "popup-20160709.729/" "planet-theme-20161030.1917/" "plan9-theme-20170529.2212/" "pkg-info-20150517.443/" "pcache-20170105.1414/" "omnisharp-20170509.104/" "neotree-20170522.758/" "moe-theme-20160814.2212/" "minimap-1.2/" "minimal-theme-20160608.322/" "memoize-20130421.1234/" "marshal-20160807.1954/" "markdown-mode-20170526.1213/" "markdown-mode+-20170320.1404/" "macrostep-20151213.145/" "logito-20120225.1255/" "leuven-theme-20170508.1319/" "kaolin-theme-20170710.1014/" "js2-mode-20170516.1643/" "idle-highlight-mode-20120920.948/" "ht-20161015.1945/" "highlight-quoted-20140916.1122/" "goto-chg-20131228.659/" "go-mode-20161110.1750/" "go-eldoc-20161012.616/" "go-complete-20151015.228/" "go-autocomplete-20150903.1940/" "gnupg/" "gh-20170512.2049/" "font-lock+-20151231.1319/" "foggy-night-theme-20160209.708/" "flycheck-20170524.1742/" "fireplace-20160811.519/" "f-20170404.1039/" "exec-path-from-shell-20160812.159/" "evil-readme.txt~" "evil-readme.txt" "epl-20150517.433/" "drag-stuff-20161107.2349/" "doom-themes-20170630.922/" "dash-20161121.55/" "darktooth-theme-20170715.1624/" "dark-souls-20140314.428/" "cyberpunk-theme-20170524.803/" "csharp-mode-20170502.158/" "badger-theme-20140716.1932/" "autothemer-20170112.1324/" "auto-complete-20161029.643/" "archives/" "anti-zenburn-theme-20160725.1559/" "all-the-icons-20170703.112/" "afternoon-theme-20140104.1059/" "2048-game-20151026.1233/" "../" "./")
+
+ ("c:/Users/eellis/Desktop/passportpayment/resources/views/admin/edit_order/forms/" (22903 46519 0 0) "exhibitors.blade.php" "../" "./")
+
+ ("c:/Users/eellis/Desktop/passportpayment/resources/views/admin/edit_order/" (22887 31137 0 0) "index.blade.php" "forms/" "../" "./")
+
+ ("c:/Users/eellis/Desktop/passportpayment/app/Http/Controllers/" (22912 44350 0 0) "tmp" "ReviewController.php" "PaymentController.php" "PackagesController.php" "OrdersController.php" "MailController.php" "ItemsController.php" "HomeController.php" "Controller.php" "ConfirmationController.php" "AdminEventSettingsController.php" "AdminEventsController.php" "AdminEventReportsController.php" "AdminEditOrderController.php" "AdminController.php" "AdminAddOrderController.php" "#PaymentController.php#" "../" "./")
+
+ ("c:/Users/eellis/Desktop/passportpayment/resources/views/admin/event_reports/" (22911 21655 0 0) "index.blade.php" "../" "./")
+
+ ("c:/Users/eellis/Desktop/passportpayment/routes/" (22906 11414 0 0) "web.php" "console.php" "api.php" "../" "./")
+
+ ("c:/Users/eellis/Desktop/passportpayment/app/" (22906 17327 0 0) "ZipCodes.php" "Providers/" "Payments.php" "Orders.php" "ItemsPrice.php" "Items.php" "Http/" "Helpers/" "Exhibitors.php" "Exceptions/" "Events.php" "EFT_Processors.php" "EFT_ErrorLog.php" "Customers.php" "Console/" "Confirmations.php" "CDSEventInfo.php" "AdminUsers.php" "../" "./")
+
+ ("c:/Users/eellis/Desktop/passportpayment/" (22906 9755 0 0) "vendor/" "tests/" "storage/" "server.php" "routes/" "resources/" "README.md" "public/" "phpunit.xml" "package.json" "gulpfile.js" "foo.txt" "database/" "config/" "composer.phar" "composer.lock" "composer.json" "commit.txt" "changes.txt" "bootstrap/" "artisan" "app/" ".idea/" ".gitignore" ".gitattributes" ".git/" ".env.example" ".env" "#changes.txt#" "../" "./")
 
  ("c:/Users/eellis/Desktop/passportpayment/config/" (22887 31137 0 0) "view.php" "session.php" "services.php" "queue.php" "mail.php" "hashids.php" "filesystems.php" "excel.php" "dompdf.php" "datatables.php" "database.php" "compile.php" "cache.php" "broadcasting.php" "auth.php" "app.php" "../" "./")
 
@@ -118,21 +155,11 @@
 
  ("c:/Users/eellis/Desktop/passportpayment/resources/views/packages/forms/" (22887 31074 0 0) "packages.blade.php" "../" "./")
 
- ("c:/Users/eellis/Desktop/" (22904 43274 0 0) "XpressReg (dev3) (Z) - Shortcut.lnk" "wwwroot - Shortcut.lnk" "web-dev-tools-master/" "vpn.pdf" "test/" "STG and QA Env.vsdx" "step.md" "passportpayment/" "Papercut.appref-ms" "p" "OnsiteEventMonitor/" "nn/" "Google Chrome.lnk" "glue.html" "foo.html" "FiraCode/" "emacs-25.2-x86_64.zip" "desktop.ini" "crfs.md" "bak/" "badges/" "BadgePrintServer/" "backup/" "Atom.lnk" "06.mp3" "../" "./")
-
  ("c:/Users/eellis/Desktop/passportpayment/resources/views/admin/add_order/" (22903 46755 0 0) "index.blade.php" "forms/" "confirmation.blade.php" "#index.blade.php#" "../" "./")
 
  ("c:/Users/eellis/Desktop/passportpayment/resources/views/admin/add_order/forms/" (22903 46744 0 0) "review.blade.php" "packages.blade.php" "exhibitors.blade.php" "#packages.blade.php#" "../" "./")
 
- ("c:/Users/eellis/AppData/Roaming/.emacs.d/" (22906 988 0 0) "themes/" "switch-bg.el" "solarized-emacs/" "slime/" "README.md" "LICENSE" "laravel-dev.el" "init.el~" "init.el" "ido.last" "foo" "evil/" "elpa/" "auto-save-list/" "ac-comphist.dat" ".git/" "#README.md#" "#foo.c#" "../" "./")
-
- ("c:/Users/eellis/Desktop/passportpayment/resources/views/admin/event_reports/" (22896 59001 0 0) "index.blade.php" "../" "./")
-
  ("c:/Users/eellis/Desktop/passportpayment/resources/views/confirmation/" (22902 14013 0 0) "index.blade.php" "check.blade.php" "../" "./")
-
- ("c:/Users/eellis/Desktop/passportpayment/routes/" (22906 767 0 0) "web.php" "console.php" "api.php" "../" "./")
-
- ("c:/Users/eellis/Desktop/passportpayment/app/" (22903 46519 0 0) "ZipCodes.php" "Providers/" "Payments.php" "Orders.php" "ItemsPrice.php" "Items.php" "Http/" "Helpers/" "Exhibitors.php" "Exceptions/" "Events.php" "EFT_Processors.php" "EFT_ErrorLog.php" "Customers.php" "Console/" "Confirmations.php" "CDSEventInfo.php" "AdminUsers.php" "../" "./")
 
  ("c:/Users/eellis/Desktop/passportpayment/app/Http/Middleware/" (22906 1354 0 0) "VerifyCsrfToken.php" "RegistrationConnection.php" "RedirectIfAuthenticated.php" "EventInfo.php" "EncryptCookies.php" "AdminUserValidation.php" "../" "./")
 
@@ -220,8 +247,6 @@
 
  ("c:/inetpub/wwwroot/ereg/includes/" (22876 65463 0 0) "xpuFooter.asp" "WebRegGen.asp" "WebItemGen_Old.asp" "WebItemGen.asp" "UtilityFunctions.asp" "UnavailableHeader.asp" "UnavailableFooter.asp" "Unavailable.css" "translations.asp" "techInfo.asp" "progress.asp" "objconnshape.asp" "objCds.asp" "library.js" "InjectionProtection.asp" "header2.asp" "header1.asp" "header.asp" "getTempReg.asp" "GetRegInfo.asp" "getPromoDefinitions.asp" "footer.asp" "ereg_styles.asp" "EmailGeneratorDebug.asp" "EmailGenerator.asp" "email/" "clean.asp" "adovbs.asp" "../" "./")
 
- ("c:/inetpub/wwwroot/" (22877 12982 0 0) "Zack/" "XpressWebRegServiceLogViewer/" "xPressToolkit/" "XpressEReg_2/" "XpressEReg/" "xpc/" "xet_fr/" "xet/" "xee/" "xd_receiver_ssl.htm" "xd_receiver_ssl - Copy.htm" "xd_receiver.htm" "xd_receiver - Copy.htm" "x2/" "well/" "urlPinger/" "TravelPlanners/" "tools4.0/" "TestXCopy/" "TestPermissions/" "Test2.php" "Test2 - Copy.php" "Test.php" "test.asp" "test/" "TechSupportStats/" "TechSupportOld/" "TechSupport/" "sql_text.html" "spike/" "SMESql_after_sponsor.txt" "smbuttons/" "setbesession.asp" "sessiontest.asp" "services/" "SEMSql.txt" "ROMECORE/" "RegisterXpressregWebSite/" "register/" "RegInfoConsumptionTest/" "PriMedMemberTester/" "presdo/" "playground/" "platform.inc" "phpinfo.php" "PhpCoreBeta/" "php.php" "PaymentLogViewer/" "passbook/" "New folder/" "modeldbschema/" "mmax115/" "media_old/" "Media/" "mdev/" "MaxTool/" "Marketing/" "m-milo/" "m-iphone/" "m/" "LRS_Settings2.php" "LRS_Settings.php" "LRSImages/" "isnaex_test.asp" "InquiryPage/" "index.php" "Includes/" "Images/" "iisstart.htm" "IISLogMonitor/" "iis-85.png" "GLMOnsiteReportingApp/" "FAQ/" "exhibitor/" "exc/" "EventAdmin/" "esite/" "eRegSPNY1217/" "eRegSPIR1017/" "eRegSOTH025/" "eRegSMMI1017/" "eRegSMAM1017/" "eRegROCK1017/" "eRegNCPA1017/" "eRegnaco0617/" "eRegMMAX115/" "eRegKMLE0717/" "eRegISNA0717/" "eRegIADR0317/" "eRegFARM0317/" "eRegFABC0318/" "eRegEXBI0417/" "eRegEREG0617/" "eRegDAKO085/" "eRegCNFW0817/" "eRegCMTS0617/" "eRegCJS0915/" "eRegBDNY1117/" "ereg/" "docbuilder/" "DCS_V1/" "dbsetup/" "CrowdCompass/" "CrossDemoExport/" "Coyote/" "CoreStyles/" "CoreServices/" "CoreJS/" "CoreInstructions/" "CoreIncludes/" "CoreImages/" "CoreClasses/" "core/" "cmm/" "clicks/" "ceu2xml/" "CertificatePrintServer_Rick/" "CDSCoreAPI/" "CDSBridgeLiteSampleCSharp/" "CDSBridgeLitePhpSample/" "CDSBiz/" "be_screen_builder/" "BC_Images/" "BarCodeGen/" "BarCode/" "attendee/" "aspnet_client/" "apps/" "Admin_XP/" "Admin_V9/" "Admin_V8/" "Admin_V75/" "Admin_V7/" "Admin_V6/" "Admin_V5/" "Admin_V4/" "Admin_V11/" "Admin_v105/" "Admin_V10/" "#test3.php#" "../" "./")
-
  ("c:/inetpub/wwwroot/ereg/css/ui-lightness/" (22846 55476 0 0) "jquery-ui-1.8.2.custom.css" "images/" "../" "./")
 
  ("c:/inetpub/wwwroot/ereg/css/" (22867 48320 0 0) "ui-lightness/" "cds_main.css" "bootstrap.min.css" "bootstrap.css" "bootstrap-theme.min.css" "bootstrap-theme.css" "../" "./")
@@ -283,22 +308,6 @@
  ("c:/Users/eellis/Desktop/test/css/" (22840 23253 0 0) "main.css" "bootstrap.min.css.material" "bootstrap.min.css" "bootstrap.css.map" "bootstrap.css" "bootstrap-theme.min.css" "bootstrap-theme.css.map" "bootstrap-theme.css" "../" "./")
 
  ("c:/inetpub/wwwroot/XpressEReg/App_Themes/" (22841 28967 0 0) "standard/" "../" "./")
-
- ("c:/inetpub/wwwroot/XpressEReg/Bin/" (22841 28968 0 0) "safe/" "Moxiecode.TinyMCE.dll.refresh" "Moxiecode.TinyMCE.dll" "MCManager.dll" "MCImageManager.dll.refresh" "MCImageManager.dll" "ICSharpCode.SharpZipLib.dll" "HtmlSanitizationLibrary.xml" "HtmlSanitizationLibrary.dll.refresh" "HtmlSanitizationLibrary.dll" "CKEditor.NET.pdb.exclude" "CKEditor.NET.dll.refresh.exclude" "CKEditor.NET.dll.exclude" "CdsStdLib.pdb" "CdsStdLib.dll.refresh" "CdsStdLib.dll" "AntiXssLibrary.xml" "AntiXssLibrary.dll.refresh" "AntiXssLibrary.dll" "AjaxControlToolkit.pdb" "AjaxControlToolkit.dll.refresh" "AjaxControlToolkit.dll" "../" "./")
-
- ("c:/inetpub/wwwroot/XpressEReg/_notes/" (22841 29031 0 0) "nav_Events_f2.gif.mno" "nav_Events.gif.mno" "../" "./")
-
- ("c:/inetpub/wwwroot/XpressEReg/App_Code/" (22841 28967 0 0) "XpressRegPortalDS.xss" "XpressRegPortalDS.xsd" "XpressESiteProjectOverviewDS.xss" "XpressESiteProjectOverviewDS.xsd" "XpressESiteGraphicDesignDS.xss" "XpressESiteGraphicDesignDS.xsd" "XpressESiteDS.xss" "XpressESiteDS.xsd" "XpressERegWebStyles.xss" "XpressERegWebStyles.xsd" "XpressERegPromosDs.xss" "XpressERegPromosDs.xsd" "XpressEregEventInfo.xss" "XpressEregEventInfo.xsd" "XETTools.cs" "WebRegDefinitionsFields.cs" "UserObjectTypes.cs" "SSLClass.cs" "SessionObj.cs" "MemObjectTypes.cs" "MediaPageToolsClass.cs" "MediaPageFieldsClass.cs" "InquiryToolsClass.cs" "InquiryExtraInfos.cs" "ImageResize.cs" "FieldObjectType.cs" "EventObjectTypes.cs" "Enums.cs" "DAL/" "CDS_Inq_DS.xss" "CDS_Inq_DS.xsd" "CDSMemberShipProvider.cs" "CDSEventInfoDS.xss" "CDSEventInfoDS.xsd" "BAL/" "../" "./")
-
- ("c:/inetpub/" (22841 29420 0 0) "wwwroot/" "test/" "temp/" "logs/" "history/" "custerr/" "../" "./")
-
- ("c:/Users/" (22823 14757 0 0) "sleeman.admin/" "sleeman/" "Public/" "MSSQLSERVER/" "eellis/" "desktop.ini" "DefaultAppPool/" "Default User/" "Default/" "Classic .NET AppPool/" "CDSAdmin/" "All Users/" "Administrator/" ".NET v4.5 Classic/" ".NET v4.5/" ".NET v2.0 Classic/" ".NET v2.0/" "../" "./")
-
- ("c:/Users/eellis/AppData/" (22674 32484 0 0) "Roaming/" "LocalLow/" "Local/" "../" "./")
-
- ("c:/inetpub/wwwroot/FAQ/" (22840 22498 0 0) "js/" "images/" "fonts/" "faq_controller.php" "faq.html" "db/" "css/" "app/" "api.php" "admin.php" ".htaccess" "../" "./")
-
- ("c:/Program Files/emacs/" (22829 32045 0 0) "var/" "share/" "libexec/" "bin/" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

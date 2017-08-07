@@ -109,11 +109,11 @@
 
 ;(load-theme 'silkworm t)
 ;; moe moe kyun kyun
-;(require 'moe-theme)
-;(setq moe-theme-highlight-buffer-id nil)
-;(moe-theme-set-color 'cyan)
+(require 'moe-theme)
+(setq moe-theme-highlight-buffer-id nil)
+(moe-theme-set-color 'cyan)
 
-;(moe-dark)
+(moe-dark)
 ;(powerline-moe-theme)
 
 
@@ -124,20 +124,20 @@
 
 ;(setq neo-theme (if (display-graphic-p) 'icons 'arrow))
 
-(setq neo-theme 'arrows)
+;(setq neo-theme 'arrows)
 
-(require 'doom-themes)
+;(require 'doom-themes)
 
 ;; Global settings (defaults)
-(setq doom-themes-enable-bold t    ; if nil, bold is universally disabled
-      doom-themes-enable-italic t) ; if nil, italics is universally disabled
+;(setq doom-themes-enable-bold t    ; if nil, bold is universally disabled
+;      doom-themes-enable-italic t) ; if nil, italics is universally disabled
 
 ;; Load the theme (doom-one, doom-molokai, etc); keep in mind that each theme
 ;; may have their own settings.
-(load-theme 'doom-one t)
+;(load-theme 'doom-one t)
 
 ;; Enable flashing mode-line on errors
-(doom-themes-visual-bell-config)
+;(doom-themes-visual-bell-config)
 
 ;; Enable custom neotree theme
 ;(doom-themes-neotree-config)  ; all-the-icons fonts must be installed!
