@@ -1311,8 +1311,24 @@
        (320. . ,azenburn-beige)
        (340. . ,azenburn-beige+1)
        (360. . ,azenburn-green)))
-   `(vc-annotate-very-old-color ,azenburn-green)
-   `(vc-annotate-background ,azenburn-bg-1)))
+
+`(vc-annotate-very-old-color ,azenburn-green)
+`(vc-annotate-background ,azenburn-bg-1)))
+'(cursor ((t (:background "DarkRed" :foreground "#232333"))))
+'(cvs-handled ((t (:foreground "pink4"))))
+'(cvs-need-action ((t (:foreground "orange3"))))
+'(cvs-unknown ((t (:foreground "red3"))))
+'(error ((t (:foreground "Red3" :weight normal))))
+'(font-lock-comment-face ((t (:foreground "#735673"))))
+'(gnus-group-mail-1 ((t (:foreground "#0f2050" :weight bold))))
+'(gnus-group-news-1 ((t (:foreground "#0f2050" :weight bold))))
+'(gnus-group-news-1-empty ((t (:foreground "#5f6a8a"))))
+'(gnus-summary-cancelled ((t (:foreground "#205070" :inverse-video t))))
+'(helm-M-x-key ((t (:foreground "LightYellow" :underline t))))
+'(helm-M-x-key ((t (:foreground "mediumblue" :underline t))))
+'(helm-ff-dotted-directory ((t (:background "LightGray" :foreground "black"))))
+'(org-block ((t (:inherit shadow :background "#adadad"))))
+'(org-level-7 ((t (:foreground "#4d7373"))))
 
 ;;;###autoload
 (and load-file-name
